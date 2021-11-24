@@ -19,9 +19,11 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "10.0"
   spec.requires_arc = true
-  spec.swift_version = '5.1'
+  spec.swift_version = '4.2'
   
   spec.source_files = 'Sources/**/*.swift'
   spec.frameworks = 'UIKit', 'Photos'
+  spec.dependency 'BSImageView', '1.0.2'
+  spec.dependency 'BSGridCollectionViewLayout', '1.2.2'
 
 end
