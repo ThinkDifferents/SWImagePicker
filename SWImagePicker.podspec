@@ -7,7 +7,9 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0"
   spec.summary      = "Custom BSPickerImage version"
   spec.description  = <<-DESC
-                   Multiple image picker And takephoto
+    Multiple image picker And takephoto,
+    It is intended as a replacement for UIImagePickerController for both selecting
+                   DESC
 
   spec.homepage     = "https://github.com/ThinkDifferents/SWImagePicker.git"
 
