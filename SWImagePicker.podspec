@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SWImagePicker"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "Custom BSPickerImage version"
   spec.description  = <<-DESC
     Multiple image picker And takephoto,
@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '4.2'
   
   spec.source_files = 'Sources/**/*.swift'
+  spec.resource = 'Resources/*.png'
   spec.frameworks = 'UIKit', 'Photos'
   spec.dependency 'BSImageView', '1.0.2'
   spec.dependency 'BSGridCollectionViewLayout', '1.2.2'
