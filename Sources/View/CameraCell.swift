@@ -40,6 +40,8 @@ final class CameraCell: UICollectionViewCell {
         imageView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         imageView.contentMode = .center
         contentView.addSubview(imageView)
+        
+        NotificationCenter.default.post(name: Notification.Name("AddPhoto"), object: contentView)
 
 //        setupCaptureLayer()
     }

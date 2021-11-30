@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SWImagePicker"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "Custom BSPickerImage version"
   spec.description  = <<-DESC
     Multiple image picker And takephoto,
