@@ -255,6 +255,10 @@ extension PhotosViewController {
             
             if isRightCamera() {
                 
+                 if self.assetStore.count >= self.settings.maxNumberOfSelections {
+                    return false
+                 }
+                
                 let cameraController = UIImagePickerController()
                 cameraController.allowsEditing = false
                 cameraController.sourceType = .camera
